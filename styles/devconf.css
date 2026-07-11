@@ -294,3 +294,86 @@ main{
 .pricing{
     margin-top: 169px;
 }
+
+/* schedule section styles */
+.schedule{
+    margin-top: 169px;
+}
+
+.schedule-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin: 12px 0 0 0;
+}
+
+.schedule-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 52px;
+}
+
+.schedule-row{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 32px;
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+
+.schedule-time{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+    width: 70px;
+    margin: 0;
+}
+
+.schedule-info{
+    flex: 1;
+}
+
+.schedule-talk{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.schedule-speaker{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    margin: 4px 0 0 0;
+}
+
+.schedule-track{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 999px;
+}
+
+/* per-track pill colors: soft tint bg + strong text */
+.track-ai       .schedule-track{ background-color: #EEF2FF; color: #4F46E5; }
+.track-cloud    .schedule-track{ background-color: #ECFEFF; color: #0891B2; }
+.track-frontend .schedule-track{ background-color: #FDF2F8; color: #DB2777; }
+.track-security .schedule-track{ background-color: #FFF7ED; color: #EA580C; }
+.track-panel    .schedule-track{ background-color: #F0FDF4; color: #16A34A; }
+
+
+.schedule .section-title{
+    font-size: 56px;
+    text-align: center;
+}
+
+.schedule-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #575757;
+    text-align: center;
+    margin: 12px 0 0 0;
+}
