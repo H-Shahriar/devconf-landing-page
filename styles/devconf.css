@@ -377,3 +377,56 @@ main{
     text-align: center;
     margin: 12px 0 0 0;
 }
+
+/* footer styles */
+.footer{
+    background-color: #0D1B2A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 115.5px;
+    margin-top: 130px;
+}
+
+.footer-copy{
+    font-size: 16px;
+    font-weight: 400;
+    color: #94A3B8;
+    margin: 0;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-socials a{
+    color: #94A3B8;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-socials a:hover{
+    color: white;
+}
+
+.footer-links{
+    display: flex;
+    gap: 32px;
+}
+
+.footer-links a{
+    font-size: 16px;
+    color: #94A3B8;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    color: white;
+}
