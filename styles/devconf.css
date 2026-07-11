@@ -1,0 +1,148 @@
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* shared style */
+.text-primary{
+    color: #2563EB;
+}
+.dark-2{
+    color: #575757;
+}
+
+.btn-primary{
+    background-color: #1D4ED8;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 41.5px;
+    border-radius: 10px;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 23.5px 115.5px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* banner styles */
+.banner{
+    background-image: url('../assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 786px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 136px 0 90px 0;
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -3.2px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.banner-title-italic{
+    font-style: italic;
+}
+
+.banner-description{
+    max-width: 829px;
+    margin: 16px auto 0 auto;
+    font-size: 22px;
+    line-height: 24px;
+    color: white;
+}
+
+.btn-banner{
+    font-size: 24px;
+    padding: 25px 61px;
+}
+
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* speakers section styles */
+.speakers .section-title{
+    font-size: 56px;
+    margin: 80px 463px 56px 463px;
+}
+
+.speakers-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.speaker-card{
+    width: 644px;
+    border: 1px solid #E5EBE5;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.speaker-img{
+    width: 100%;
+    height: 324px;
+    object-fit: cover;
+    display: block;
+}
+
+.speaker-body{
+    padding: 33px 24px 24px 24px;
+}
+
+.speaker-track{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.speaker-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.speaker-role{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    margin: 0;
+}
